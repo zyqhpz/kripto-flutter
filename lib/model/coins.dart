@@ -5,6 +5,7 @@ class Coins {
   // final String rank;
   final int rank;
   final String priceUsd;
+  final String percentChange1h;
 
   Coins({
     required this.id,
@@ -12,6 +13,7 @@ class Coins {
     required this.symbol,
     required this.rank,
     required this.priceUsd,
+    required this.percentChange1h,
   });
 
   // Coins(
